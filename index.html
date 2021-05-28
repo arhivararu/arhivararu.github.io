@@ -503,14 +503,19 @@ table, th, tr, td {
      }
      .card1 .img-top {
     	width: 516px;
-        display: none;
+        display: inline;
+        opacity: 0;
         position: absolute;
         top: 0;
         left: 0;
         z-index: 99;
+        transition-property: opacity;
+        transition-timing-function: ease-in;
+        transition-delay:0.3s;
+        transition-duration:1s;
      }
      .card1:hover .img-top {
-        display: inline;
+        opacity: 1;
      }	
 	
 
