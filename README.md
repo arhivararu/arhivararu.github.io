@@ -1,1 +1,1 @@
-# hi and thank you for your visit ^_^
+# hi and thanks for your visit ^_^
